@@ -79,7 +79,7 @@ h1 {
     justify-content: center; */
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     /* text-transform: uppercase; */
-    font-size: clamp(1.6vw, 2vw, 12px);
+    font-size: clamp(1.6vw, 2vw, 16px);
     /* color: rgb(34, 93, 255); */
     /* border: 2px solid red; */
     padding: 4vw;
