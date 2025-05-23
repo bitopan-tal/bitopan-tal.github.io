@@ -14,7 +14,8 @@
     background-color: aquamarine;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    font: 2em;
 }
 
 body {
@@ -29,11 +30,12 @@ body {
 }
 #player{
     border: 1px solid;
-    width: 95vw;
-    min-height: 26vh;
-    height: auto;
+    width: 98vw;
+    min-height: 22vh;
+    /* height: auto; */
     /* margin: auto; */
     margin: 1vh auto 1vh auto;
+    aspect-ratio: 16 / 9;
 }
 
 .partOfBody {
