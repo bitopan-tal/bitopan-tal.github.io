@@ -1,60 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #logo {
-    border-radius: 50%;
-    width: 40px;
-    padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  padding: 10px;
 }
 
 .navbar {
-    background-image: linear-gradient(rgb(145, 119, 190), rgb(178, 178, 191));
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font: 2em;
+  background-image: linear-gradient(rgb(145, 119, 190), rgb(178, 178, 191));
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 2em;
 }
 
 body {
-    /* background-size: 20px; */
-    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg); */
-    /* background-image: url(https://i.pinimg.com/736x/e7/c4/3d/e7c43d2dd47cfc48242d838701b0e2ff.jpg); */
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(rgb(214, 209, 222), rgb(210, 76, 255));
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background-size: 20px; */
+  /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg); */
+  /* background-image: url(https://i.pinimg.com/736x/e7/c4/3d/e7c43d2dd47cfc48242d838701b0e2ff.jpg); */
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgb(214, 209, 222), rgb(210, 76, 255));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#player{
-    border: 1px solid;
-    width: 98vw;
-    min-height: 22vh;
-    /* height: auto; */
-    /* margin: auto; */
-    margin: 1vh auto 1vh auto;
-    aspect-ratio: 16 / 9;
+
+#player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 300px;
+  /* height: auto; */
+  /* margin: auto; */
+  margin: 1vh 0 1vh 0;
+  aspect-ratio: 16 / 9;
 }
 
 .partOfBody {
-    display: grid;
-    gap: 2px;
-    grid-template-columns: 50% 50%;
-    /* align-items: center; */
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 50% 50%;
+  /* align-items: center; */
   justify-items: center;
 }
 
 .videos {
-    border: 2px solid red;
-    height: auto;
-    width: 45vw;
+  border: 2px solid red;
+  height: auto;
+  width: 45vw;
 }
 
 .thumbnail {
-    height: auto;
-    width: 45vw;
+  height: auto;
+  width: 45vw;
 }
 
 
