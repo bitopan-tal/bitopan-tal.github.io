@@ -16,6 +16,8 @@
   align-items: center;
   justify-content: center;
   font: 2em;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,6 +26,7 @@ body {
   /* background-image: url(https://i.pinimg.com/736x/e7/c4/3d/e7c43d2dd47cfc48242d838701b0e2ff.jpg); */
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
   background-image: linear-gradient(rgb(214, 209, 222), rgb(210, 76, 255));
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +39,7 @@ body {
   border: 1px solid;
   box-sizing: border-box;
   width: 100vw;
-  min-height: 300px;
+  min-height: 250px;
   /* height: auto; */
   /* margin: auto; */
   margin: 1vh 0 1vh 0;
