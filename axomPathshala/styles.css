@@ -12,7 +12,7 @@
 }
 
 .navbar {
-  background-image: linear-gradient(rgb(20, 12, 52), rgb(31 31 89));
+  background-image: linear-gradient(rgb(20, 12, 52), rgb(47, 20, 88));
   /* background-color: aquamarine; */
   display: flex;
   align-items: center;
@@ -24,6 +24,13 @@
 h3 {
   color: rgb(255, 239, 196);
   text-shadow: 0 0 3px #4853bb;
+}
+
+.vidTitle {
+  color: rgb(161, 161, 161);
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 8px 0px 8px 2px;
 }
 
 body {
@@ -66,7 +73,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid;
+  border: .5px solid;
   /* box-sizing: border-box; */
   width: 100vw;
   /* min-height: 250px; */
@@ -79,8 +86,8 @@ body {
 
 .partOfBody {
   display: grid;
-  gap: 2px;
   grid-template-columns: 50% 50%;
+  row-gap: 20px;
   /* align-items: center; */
   justify-items: center;
   width: 100%;
