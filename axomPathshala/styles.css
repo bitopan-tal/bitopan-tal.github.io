@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    border-radius: 50%;
+    width: 40px;
+    padding: 10px;
+}
+.navbar{
+    background-image: linear-gradient(rgb(145, 119, 190), rgb(178, 178, 191));
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+body{
+    /* background-size: 20px; */
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technology-line-dark-background-image_2344719.jpg); */
+    /* background-image: url(https://i.pinimg.com/736x/e7/c4/3d/e7c43d2dd47cfc48242d838701b0e2ff.jpg); */
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(214, 209, 222), rgb(210, 76, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partOfBody{
+    display: grid;
+    gap: 2px;
+}
+.videos{
+    border: 2px solid red;
+}

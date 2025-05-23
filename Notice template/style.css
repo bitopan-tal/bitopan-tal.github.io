@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(34, 93, 255);
+    align-items: center;
+    justify-content: space-around;
+    height: 10vw;
+    width: 100vw;
+
+}
+
+.logo {
+    height: 7vw;
+    border-radius: 50%;
+}
+
+.headItem {
+
+    display: flex;
+    /* background-color: rgb(34, 93, 255); */
+    align-items: center;
+    justify-content: space-around;
+    /* height: 150px; */
+    color: white;
+    /* height:6vw; */
+    /* width: 100vw; */
+}
+
+h1 {
+    color: rgb(240, 209, 118);
+    font-size: 3.4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#nss {
+    display: flex;
+    align-items: flex-end;
+    height: 6vw;
+}
+
+#adres {
+    /* font-family:'Noto Sans JP'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 4vw;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.3vw;
+}
+
+
+
+.notice {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5vw;
+    margin-top: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bodyHeader {
+    margin-top: 1.6vw;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 3.3vw;
+    color: rgb(34, 93, 255);
+
+}
+
+.bodyText {
+    margin-top: 1.6vw;
+    /* display: flex;
+    justify-content: center; */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    /* text-transform: uppercase; */
+    font-size: clamp(1.6vw, 2vw, 16px);
+    /* color: rgb(34, 93, 255); */
+    /* border: 2px solid red; */
+    padding: 4vw;
+    text-align: justify;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#regLink {
+    display: flex;
+    justify-content: center;
+}
