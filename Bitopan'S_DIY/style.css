@@ -1,25 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 :root {
-  --bodycolor: #267D90;
-  --bodyshadow: #206F81;
-  --shadow: #303030;
-  --seccolor: #89B67B;
-  --textcolor: #FFFFFF;
+  --bodycolor: #08163a;
+  --bodyshadow: #5c2074;
+  --shadow: #0b051e;
+  --seccolor: #598b4a;
+  --textcolor: #dfece6;
 }
 
 
 body {
-  margin: 40px 70px 2000px 70px;
+  /* margin: 40px 70px 2000px 70px; */
   padding: 0;
   background-color: var(--bodycolor);
   color: var(--textcolor);
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
+
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
+  
+  display: flex;
+  justify-content: center;
+  
+  
   /* border: 2px solid #B9D1D5; */
-  margin: 23px;
+  /* margin: 23px; */
+  padding: 10px 0;
+  width: 80%;
   position: fixed;
-  top: 35px;
+  top: 25px;
   background-color: var(--bodycolor);
   border-radius: 17px;
   box-shadow: 1px 1px 20px 0px var(--shadow);
@@ -40,14 +57,18 @@ div ul li {
 }
 
 .mainbody {
+  margin: 40px 0px 2000px 0px;
+  width: 80%;
   text-align: center;
   margin-top: 9vh;
-  padding: 5px 10px 27px 10px;
+  padding: 5px 10px 10px 10px;
   background-color: var(--bodyshadow);
   border-radius: 25px;
 }
 
 .bord {
+  display: flex;
+  justify-content: center;
   /* border: 2px solid #B9D1D5; */
 }
 
@@ -56,6 +77,8 @@ div ul li {
   border-radius: 18px;
   /* margin-bottom: 200px; */
   padding: 1px 25px 1px 25px;
+  width: 85px;
+  margin: 20px auto 0 auto;
   background-color: var(--seccolor);
   color: var(--textcolor);
 }
